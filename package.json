@@ -1,0 +1,33 @@
+{
+  "name": "xml-shim",
+  "version": "0.1.0",
+  "description": "DOMParser and XMLSerializer implementation for Node.js",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "tape tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/davegomez/xml-shim.git"
+  },
+  "keywords": [
+    "XMLSerializer",
+    "DOMParser",
+    "DOM",
+    "XML"
+  ],
+  "author": "David Gómez <dg.dave@gmail.com> (https://github.com/davegomez)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davegomez/xml-shim/issues"
+  },
+  "homepage": "https://github.com/davegomez/xml-shim#readme",
+  "dependencies": {
+    "jsdom": "7.2.1",
+    "libxmljs": "0.16.1"
+  },
+  "devDependencies": {
+    "babel-core": "6.3.17",
+    "eslint": "1.10.3"
+  }
+}
